@@ -27,7 +27,8 @@ class Res(Resource):
         identitas['umur'] = umur
         response = {
             "msg": "success",
-            "data": identitas 
+            "data": identitas,
+            "status": 200
             }
         return response
 
